@@ -1,0 +1,1 @@
+web: java -jar jetty-runner.jar --port $PORT target/project2.war

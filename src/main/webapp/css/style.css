@@ -1,0 +1,83 @@
+@import "https://use.fontawesome.com/c51d449c65.css";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.top-buffer {
+	margin-top: 25px;
+}
+
+.header.jumbotron {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #535353;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-size: 30px; 
+	font-weight: 300;
+}
+
+.yellow-button {
+	font-weight: 300;
+	color: #6d706f;
+	background: #00c805;
+	border: #f0e0b9;
+}
+
+.yellow-button:hover, .yellow-button:active, .yellow-button:focus, .yellow-button:active:focus {
+	color: white;
+	background-color: #00c805 !important;
+	border-color: #00c805 !important;
+}
+
+.grey-button {
+	font-weight: 300;
+	background: #787878;
+	border: #787878
+}
+
+.grey-button:hover, .grey-button:active, .grey-button:focus, .grey-button:active:focus {
+	background-color: #6b6666 !important;
+	border-color: #6b6666 !important;
+}
+
+.blue-button {
+	font-weight: 300;
+	background: #597791;
+	border: #597791
+}
+
+.blue-button:hover, .blue-button:active, .blue-button:focus, .blue-button:active:focus {
+	background-color: #506a80 !important;
+	border-color: #506a80 !important;
+}
+
+.form-heading {
+	font-weight: 300;
+	color: white;
+}
+
+.form-divider {
+	  height: 10px;
+	  width: 100%;
+	  background-color: #a4bcbc;
+}
+
+.form-control {
+	font-weight: 300 !important;
+}
+
+.icon {
+	padding-right: 10px;
+}
+
+.error {
+	color: #b33e3e;
+	font-weight: bold;
+}
